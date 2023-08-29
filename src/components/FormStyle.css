@@ -1,0 +1,42 @@
+.contact {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+  }
+  
+  .contact-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+  
+  .left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .phone h4,
+  .right h4 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .phone h4 svg,
+  .right h4 svg {
+    margin-right: 1rem;
+  }
+  
