@@ -40,3 +40,31 @@
     margin-right: 1rem;
   }
   
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+      grid-gap: 20px; /* Reduce the gap between items */
+    }
+    
+    .left,
+    .right {
+      padding: 1rem 0; /* Adjust padding for smaller screens */
+    }
+  
+    /* Adjust font size for phone numbers and email addresses */
+    .phone h4,
+    .right h4 {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+  
+    .phone h4 svg,
+    .right h4 svg {
+      margin-right: 0.5rem;
+    }
+  }
+  
+  
+  
+  
+  
