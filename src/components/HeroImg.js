@@ -12,7 +12,7 @@ function HeroImg() {
         <img className="into-img" src={background} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>WELCOME TO </p>
+        <p>WELCOME TO</p>
         <h1><img className="into-img" src={logoname} alt="Logoname"/></h1>
         <div>
           <Link to="/about" className="btn">About</Link>

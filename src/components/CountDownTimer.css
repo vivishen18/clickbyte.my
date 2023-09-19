@@ -1,0 +1,51 @@
+.launch-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../assets/countbg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px; /* Add padding to the container */
+}
+
+.FullLogo {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to the top of the timer */
+}
+
+.time-unit {
+  margin: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+.time {
+  font-size: 36px;
+  color: white;
+}
+
+.unit {
+  font-size: 18px;
+  color: white;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .FullLogo {
+    max-width: 80%; /* Adjust the logo size for smaller screens */
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .timer {
+    margin-top: 10px; /* Reduce margin for smaller screens */
+  }
+}

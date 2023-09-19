@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import { Route, Routes } from "react-router-dom";
 import PreLoader from "./components/PreLoader";
+import CountDown from "./routes/CountDown";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,9 +23,10 @@ function App() {
         <PreLoader />
       ) : (
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/" element={<CountDown />} />
         </Routes>
       )}
     </>
